@@ -5,6 +5,7 @@ body {
     padding: 0;
     font-family: 'Rubik', sans-serif;
     box-sizing: border-box;
+    width: 100%;
 }
 
 ul {
@@ -51,7 +52,9 @@ a:hover {
     background-repeat: no-repeat;
     width: 100%;
 }
-
+.wrapper {
+    width: 100%;
+}
 .grid {
     padding: 4rem;
 }
@@ -60,6 +63,8 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 1rem;
+    width: 100%;
+    min-width: 0;
     padding: 0;
     margin: 0;
 }
@@ -251,4 +256,22 @@ form p {
     color: #323131;
     margin: 0.5rem;
     font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 320px)  {
+    .hero {
+        min-width: 349px;
+    }
+}
+
+@media only screen and (max-width: 768px)  {
+
+    .hero {
+        height: 200px;
+    }
+    .grid {
+        padding: 0;
+    }
+   
+    
 }
