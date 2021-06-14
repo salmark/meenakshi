@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 2rem;
+}
+
+li {
+    padding: 0.4rem;
+}
+
+h1 {
+    margin: 0;
+    background: #f5cc18;
+    color: #36333c;
+    /* border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem; */
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.pt-n {padding-top: 0;}
+
+a {
+    color: #36333c;
+}
+
+a:hover {
+    color: #dc3545;
+}
+
+.hero {
+    height: 500px;
+
+}
+
+.background {
+    height: 100%;
+    background: url(./images/D24A0108.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.grid {
+    padding: 4rem;
+}
+
+.main-grid-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.main-grid-list .grid-item {
+    min-height: 300px;
+    border: 1px solid #e2e2e2;
+    /* box-shadow: 0px 1px 2px rgb(0 0 0 / 24%);
+    border-radius: 0.5rem; */
+    list-style-type: none;
+
+}
+
+.events ul.event-list li {
+    padding: 0.4rem;
+
+}
+
+.mandapam img {
+    width: 100%;
+    height: 100%;
+}
+
+.mandapam a:hover {
+    color: #fff;
+
+}
+
+.add {
+    background: #e5e5e5;
+    margin: 1rem;
+    border-radius: 0.2rem;
+    padding: 1rem;
+}
+
+.submit-btn {
+    padding: 1rem;
+    /* border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem; */
+    text-align: center;
+    display: block;
+    background: #36333c;
+    color: #f5cc18;
+}
+
+.private-booking .event-list {
+    padding: 2rem;
+}
+
+.private-booking .event-list li {
+    padding: 0.4rem;
+}
+
+.badge-default {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.badge-warning {
+    color: #212529;
+    background-color: #ffc107;
+}
+
+.badge-success {
+    color: #fff;
+    background-color: #28a745;
+}
+
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+.ml-sm {
+    margin-left: 0.5rem;
+}
+
+.sub-title {
+    font-size: 1rem;
+    color: #36333ce0;
+    font-weight: normal;
+}
+
+.grid-img {
+    align-items: center;
+    display: grid;
+    height: 100%;
+    background: #c80909cf;
+    border-radius: 0.5rem;
+}
+
+.grid-img img {
+    width: 100%;
+}
+
+.mandapam {
+    display: grid;
+    align-items: center;
+    height: calc(100% - 51px);
+    background: #f0fee1;
+    position: relative;
+}
+
+.submit-btn {
+    position: absolute;
+    width: calc(100% - 32px);
+    bottom: 0;
+}
+
+.channel {
+    text-align: center;
+}
+
+.channel h1 {
+    margin-bottom: 4rem;
+}
+
+.channel img {
+    width: 2em;
+    height: 2em;
+}
+
+.facebook {
+    margin-top: 1rem;
+}
+
+.facebook-img {
+    position: relative;
+}
+
+.facebook .title {
+    font-weight: 600;
+    color: #36333c;
+}
+
+.facebook-img img {
+
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    margin-left: 0.5rem;
+    top: -11px;
+}
+
+.app {
+    margin: 1rem 3rem;
+    font-weight: 600;
+    color: #fff;
+    background: #c80909cf;
+    border-radius: 0.3rem;
+    padding: 0.4rem;
+}
+
+form {
+    text-align: center;
+    margin: 1rem;
+}
+
+input[type=text],
+input[type=email] {
+    width: 90%;
+    padding: 0.8rem 1rem;
+    border: 1px solid #b9b7bd;
+    margin: 8px 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 0.2rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+form p {
+    color: #323131;
+    margin: 0.5rem;
+    font-size: 0.9rem;
+}
